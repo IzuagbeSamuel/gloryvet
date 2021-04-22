@@ -1,0 +1,52 @@
+*{
+  margin: 10px;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+  font-size: 40px;
+}
+
+.logo{
+  background-color: rgb(238, 105, 127);
+  width: 100%;
+}
+
+.logo img{
+  height: 75px;
+}
+
+.logo h1{
+  font-size: 40px;
+  color: white;
+  margin-left: 50px;
+}
+
+.navbar{
+  width: 100%;
+}
+
+.navbar ul{
+  list-style: none;
+  padding: 15px;
+}
+
+.navbar li{
+  display: inline;
+}
+
+.navbar a{
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
+
+.navbar a:hover{
+  border-bottom: 3px solid rgb(238, 105, 127);
+}
+
+
+.navbar a.active{
+  border-bottom: 3px solid rgb(238, 105, 127);
+}
